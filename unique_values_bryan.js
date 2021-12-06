@@ -1,4 +1,4 @@
-const countUniqueValues = arr => [...new Set(arr)].length;
+const countUniqueValues = arr => new Set(arr).size;
 
 countUniqueValues([1, 1, 1, 1, 1, 2]); //?
 countUniqueValues([1, 2, 3, 4, 4, 4, 7, 7, 12, 12, 13]); //?
