@@ -1,7 +1,7 @@
 function search(array, val) {
-	// Create a min and max starting point for search
-	let min = 0; // beginning of array
-	let max = array.length - 1; // end of array
+	// Create a min and max starting indexes for search
+	let min = 0; // index of beginning of array
+	let max = array.length - 1; // index of end of array
 
 	while (min <= max) {
 		const middle = Math.floor((min + max) / 2);
@@ -18,7 +18,5 @@ function search(array, val) {
 
 	return -1;
 }
-
-Math.floor(5); //?
 
 search([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 7); //?
