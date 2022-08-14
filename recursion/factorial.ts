@@ -4,6 +4,12 @@ function factorial(num: number) {
   return num * factorial(num - 1);
 }
 
+// function factorial(x){
+//   if (x < 0 ) return 0;
+//   if (x <= 1 ) return 1;
+//   return x * factorial(x-1);
+// }
+
 factorial(3);
 
 // return 3 * factorial(2)
